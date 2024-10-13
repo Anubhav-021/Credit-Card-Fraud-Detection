@@ -10,9 +10,9 @@ The SOM clusters the dataset into different groups based on their similarities a
 
 ## Features 
 
-`Unsupervised Learning with SOM:` No labels are required, making it suitable for anomaly detection tasks.
-`Data Preprocessing:` Includes feature scaling and preparation.
-`Visualization:` The resulting SOM is visualized to highlight anomalies.
+1. Unsupervised Learning with SOM: No labels are required, making it suitable for anomaly detection tasks.
+2. Data Preprocessing: Includes feature scaling and preparation.
+3. Visualization: The resulting SOM is visualized to highlight anomalies.
 
 ## Dataset
 
@@ -20,18 +20,15 @@ The dataset used in this project is Credit_Card_Applications.csv. It contains va
 
 ## How It Works
 
-`1. Data Loading and Preprocessing:`
-
+1. Data Loading and Preprocessing:
 The dataset is loaded and split into feature variables (X) and labels (y).
 Feature scaling is applied using MinMaxScaler to normalize the data.
 
-`2. Training the Self-Organizing Map:`
-
+2. Training the Self-Organizing Map:
 A SOM is initialized with a 10x10 grid, and the training is performed on the dataset.
 The SOM clusters the data points based on similarities in the input features.
 
-``3. Fraud Detection:``
-
+3. Fraud Detection:
 After training, the SOM identifies applications that do not fit well into the clusters as potential frauds.
 These outliers are visualized for further analysis.
 
