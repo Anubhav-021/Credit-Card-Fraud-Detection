@@ -53,6 +53,9 @@ The Self-Organizing Map produces a grid where each node represents a cluster of 
 
 The results are visualized using a Matplotlib plot that shows the clusters and highlights the potential outliers or anomalies.
 
+![Screenshot 2024-10-13 153037](https://github.com/user-attachments/assets/f6761baf-1ceb-40f7-8a31-3c86602a6976)
+
+
 ## Technologies Used
 1. Python
 2. Pandas for data manipulation
